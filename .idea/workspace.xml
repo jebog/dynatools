@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab4f414-5ada-48f9-8e08-252b19e29404" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ivProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ivProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ivelo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ivelo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701944947758</updated>
       <workItem from="1701944952966" duration="23703000" />
-      <workItem from="1702049664782" duration="1222000" />
+      <workItem from="1702049664782" duration="2034000" />
     </task>
     <servers />
   </component>
