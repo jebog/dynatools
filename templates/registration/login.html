@@ -1,0 +1,57 @@
+{% extends 'layout/auth.html' %}
+
+{% block content %}
+    <div class="container container-tight py-4">
+        <div class="text-center mb-4">
+            <a href="." class="navbar-brand navbar-brand-autodark"><img src="/static/logo.svg" height="36" alt=""></a>
+        </div>
+        <div class="card card-md">
+            <div class="card-body">
+                <h2 class="h2 text-center mb-4">Login to your account</h2>
+                {% if errors %}
+                    <p class="error">Please correct the errors below:</p>
+                    <ul class="errorlist">
+                        {% for error in errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                <form method="post" action="{% url 'login' %}" autocomplete="off" novalidate>
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <span class="text-red bg-transparent">{{ form.username.errors }}</span>
+                        <input id="username" name="username" type="email" class="form-control"
+                               placeholder="f******"
+                               autocomplete="off">
+                    </div>
+                    <div class="mb-2">
+                        <label for="password" class="form-label">
+                            Password
+                            <span class="form-label-description">
+                  </span>
+                        </label>
+                        <span class="text-red bg-transparent">{{ form.password.errors }}</span>
+                        <div class="input-group input-group-flat">
+                            <input id="password" name="password" type="password" class="form-control"
+                                   placeholder="Your password"
+                                   autocomplete="off">
+                            <span class="input-group-text">
+                  </span>
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-check">
+                            <input type="checkbox" class="form-check-input"/>
+                            <span class="form-check-label">Remember me on this device</span>
+                        </label>
+                    </div>
+                    <div class="form-footer">
+                        <input type="hidden" name="next" value="{{ next }}">
+                        <button type="submit" value="login" class="btn btn-primary w-100">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

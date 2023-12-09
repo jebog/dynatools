@@ -17,7 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from ivProject import settings
+
 urlpatterns = [
-    path("", include("ivelo.urls")),
+    path("ivelo/", include("ivelo.urls")),
+    path("", include("dashboard.urls")),
     path("admin/", admin.site.urls),
+    path("", include('django.contrib.auth.urls')),
 ]
+
+if settings.DEBUG:
+    urlpatterns += [
+        path("__debug__/", include("debug_toolbar.urls")),
+    ]
