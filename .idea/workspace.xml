@@ -4,21 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab4f414-5ada-48f9-8e08-252b19e29404" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ivProject/context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/ivelo/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/ivelo/page-header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/page-header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/user-info.html" afterDir="false" />
+    <list default="true" id="dab4f414-5ada-48f9-8e08-252b19e29404" name="Changes" comment="Template OK&#10;Login OK&#10;Logout OK">
+      <change afterPath="$PROJECT_DIR$/static/datatable/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datatable/dataTables.bootstrap5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datatable/jquery-3.7.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/datatable/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ivelo/batches.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ivelo/create-batch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ivelo/jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ivelo/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ivelo/waves.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/ivelo/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ivProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ivProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ivelo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ivelo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ivelo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ivelo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ivelo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ivelo/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/head.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/ivelo/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/ivelo/page-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/ivelo/page-header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/page-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/page-header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/jebog/PycharmProjects/ivProject/templates/layout/ivelo",
+    "last_opened_file_path": "/Users/jebog/PycharmProjects/ivProject/templates/ivelo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,11 +77,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/ivelo" />
       <recent name="$PROJECT_DIR$/templates/layout/ivelo" />
       <recent name="$PROJECT_DIR$/templates/layout" />
       <recent name="$PROJECT_DIR$/dashboard" />
       <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/ivProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ivProject" />
@@ -128,8 +135,17 @@
       <updated>1701944947758</updated>
       <workItem from="1701944952966" duration="23703000" />
       <workItem from="1702049664782" duration="2661000" />
-      <workItem from="1702122295698" duration="13006000" />
+      <workItem from="1702122295698" duration="22100000" />
     </task>
+    <task id="LOCAL-00001" summary="Template OK&#10;Login OK&#10;Logout OK">
+      <option name="closed" value="true" />
+      <created>1702215591904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702215591904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +156,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -148,6 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Template OK&#10;Login OK&#10;Logout OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template OK&#10;Login OK&#10;Logout OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

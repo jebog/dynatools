@@ -3,21 +3,22 @@
         <div class="col">
             <!-- Page pre-title -->
             <div class="page-pretitle">
-                Overview
+                {% block pre_title %}IVELO{% endblock %}
             </div>
             <h2 class="page-title">
-               Ivelo Dashboard
+                Job List
             </h2>
         </div>
         <!-- Page title actions -->
         <div class="col-auto ms-auto d-print-none">
             <div class="btn-list">
                   <span class="d-none d-sm-inline">
-                    <a href="#" class="btn btn-dark">
+                    <a href="{% url 'ivelo.jobs' %}" class="btn btn-dark">
                       My jobs
                     </a>
                   </span>
-                <a href="#" class="btn btn-primary d-none d-sm-inline-block" data-bs-toggle="modal"
+                <a href="{% url 'ivelo.new_batch' %}" class="btn btn-primary d-none d-sm-inline-block"
+                   data-bs-toggle="modal"
                    data-bs-target="#modal-report">
                     <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
