@@ -24,7 +24,7 @@ def jobs(request):
 
 @login_required
 def report(request):
-    return render(request, "ivelo/jobs.html")
+    return render(request, "ivelo/reports.html")
 
 
 @login_required

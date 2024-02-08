@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab4f414-5ada-48f9-8e08-252b19e29404" name="Changes" comment="Template OK&#10;Login OK&#10;Logout OK">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/apscheduler_jobs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/batch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/batch_processing_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/host.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/job_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivelo/models/wave.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivelo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ivelo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ivelo/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ivelo/reports.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +53,30 @@
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jebog/PycharmProjects/ivProject/templates/ivelo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jebog/PycharmProjects/ivProject/ivelo/models&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ivelo/models" />
       <recent name="$PROJECT_DIR$/templates/ivelo" />
       <recent name="$PROJECT_DIR$/templates/layout/ivelo" />
       <recent name="$PROJECT_DIR$/templates/layout" />
       <recent name="$PROJECT_DIR$/dashboard" />
-      <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/auth" />
@@ -128,6 +140,11 @@
       <workItem from="1705343113438" duration="598000" />
       <workItem from="1706196134524" duration="6040000" />
       <workItem from="1706538033549" duration="893000" />
+      <workItem from="1706780665842" duration="2641000" />
+      <workItem from="1706788710971" duration="6402000" />
+      <workItem from="1706806156381" duration="599000" />
+      <workItem from="1707429819249" duration="1000" />
+      <workItem from="1707429873041" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Template OK&#10;Login OK&#10;Logout OK">
       <option name="closed" value="true" />
