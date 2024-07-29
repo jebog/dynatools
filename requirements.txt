@@ -1,0 +1,4 @@
+Django==5.0.7
+django-debug-toolbar==4.4.6
+django-extensions==3.2.3
+towerlib==3.15.0
